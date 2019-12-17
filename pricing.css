@@ -1,0 +1,92 @@
+html {
+  font-size: 14px;
+  font-style: unset;
+  font-family: sans-serif;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 1000px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: chartreuse;
+  background-image: -webkit-repeating-linear-gradient();
+  text-decoration-color: darkgrey;
+  text-align: center;
+  text-emphasis-color: red;
+  font-size:xx-small;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #83b1ee; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+.mobi-height{ height:60px;}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .icon-bar {
+    color:black;
+  }
+  .mobi-height{ height:45px;}
+}
+
+.bg-white {
+    background-color: 
+    rgb(116, 241, 137) !important;
+}
+h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  background-color: honeydew;
+}
+h4{
+  background-color: thistle;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h5{
+  background-color: seashell;
+  font-style: italic;
+  font-family: sans-serif;
+}
+.card-body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: inherit;
+  border: red;
+  background-color: rgb(255, 255, 255);
+  outline-color: firebrick;
+}
+.display-4{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color:wheat;
+  margin-block-end: 0pt;
+  color:red;
+  font-weight: bold;
+}
+.nav-item{
+  color: blue;
+  background-color: rgb(4, 228, 228);
+  font-weight: bold;
+}
+.col-6 col-md{
+  font-weight: bold;
+  color: black;
+}
+.navbar navbar-expand-lg navbar-dark fixed-top bg-white
+{
+  color: blue;
+  font-weight: bolder;
+}
